@@ -1,39 +1,125 @@
-.App {
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 38%;
+}
+
+.menu img {
+  margin-bottom: 12%;
+}
+
+.menu a {
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+  display: inline-block;
+  width: 18%;
+  height: 70px;
+  margin-left: 5.5%;
+  margin-top: 1.2%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: white;
+  text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.850);
+}
+
+.centro {
+  min-height: 350px;
+  width: 100%;
+  display: block;
+}
+
+.categoria {
+  min-width: 200px;
+  width: 20%;
+  float: left;
+}
+
+li:hover {
+  font-weight: bold;
+  color: rgb(194, 19, 19);
+}
+
+.sale {
+  width: 78%;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  float: left;
+  align-items: center;
+}
+
+.product {
+  flex: 1 1 30%;
+  max-width: 34%;
+  padding: 5px;
+  float: left;
+  font-size: 1.05em;
+}
+
+.product:hover {
+  font-weight: bold;
+  font-size: 1em;
+  color: rgb(145, 145, 145);
+}
+
+.product img {
+  width: 120px;
+  display: block;
+}
+
+#preco {
+  font-weight: 400;
+  color: black;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.desconto {
+  color: rgb(194, 19, 19);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.destaque {
+  color: rgb(145, 145, 145);
+}
+
+.rodape {
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rodape h3 {
+  color: rgb(29, 185, 81);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.rodape img {
+  width: 450px;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.cidade h3 {
+  color: rgb(145, 145, 145);
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 130%;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
+@media (max-width: 1022px) {
+  .rodape {
+    display: none;
   }
 }

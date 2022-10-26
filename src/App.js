@@ -4,9 +4,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { textUpdate } from './actions/textActions'
 import { useState } from 'react';
 
-// partes comentadas são do exemplo "Estrutura aplicação React-Redux" - para ver exemplo troque os comandos
-// de comentário para o exemplo ativo.
-
 function SecondComponent() {
   const secondText = useSelector((state) => state.value);
   return (
