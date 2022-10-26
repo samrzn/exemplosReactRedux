@@ -6,4 +6,4 @@ Aplicação de exemplos apresentados nas aulas de React.JS durante o bootcamp Re
         - Store, reducers, actions e provider;
         - Hooks;
         - Convertendo front-end HTML/CSS em React;
-        - Manipulação de vetores;
+        - Manipulação de vetores.
