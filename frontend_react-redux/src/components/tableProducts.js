@@ -1,15 +1,15 @@
-import { useState } from 'react';
-import { useDispatch } from 'react-redux'
-import { addProduct } from '../action/productAction';
-
-function Title(props) {
-
+function tableProducts(props) {
     return (
-        <header>
-            <h2>{props.text}</h2>
+        <div className="product">
+            <div className="desc_prod">
+            <img src={props.img} />
+            <br />{props.descricao}
+            </div>
             <hr />
-        </header>
+            <span className="preco"><del>{props.valor}</del></span><br />
+            <span className="desconto">{props.desconto}</span><br />
+        </div>
     );
 }
 
-export default Title;
+export default tableProducts;

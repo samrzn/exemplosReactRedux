@@ -42,6 +42,10 @@
   float: left;
 }
 
+.desc_prod {
+  height: 20vh;
+}
+
 li:hover {
   font-weight: bold;
   color: rgb(194, 19, 19);
@@ -81,7 +85,7 @@ li:hover {
   display: block;
 }
 
-#preco {
+.preco {
   font-weight: 400;
   color: black;
   font-style: italic;
