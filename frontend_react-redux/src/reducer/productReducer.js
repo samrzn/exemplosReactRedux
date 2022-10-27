@@ -99,7 +99,7 @@ const ProductsList = {
         {
             img: "imagens/produtos/gpu-2.jpg",
             descricao: "Placa de Vídeo Zotac Gaming NVIDIA GeForce GTX 1650 AMP, 4GB, GDDR6",
-            valor: "R$ 2.352,82",
+            valor: "R$ 2.352,89",
             desconto: "R$ 1.899,90"
         }
 
