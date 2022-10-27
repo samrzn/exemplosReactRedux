@@ -40,10 +40,8 @@
   min-width: 200px;
   width: 20%;
   float: left;
-}
-
-.desc_prod {
-  height: 20vh;
+  margin-left: 5px;
+  padding-left: 5px;
 }
 
 li:hover {
@@ -52,8 +50,12 @@ li:hover {
 }
 
 .sale {
-  width: 78%;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  width: 79%;
+  margin: 0 auto;
+  float: left;
+  align-items: baseline;
   vertical-align: bottom;
 }
 
@@ -113,6 +115,12 @@ li:hover {
 
 .rodape img {
   width: 450px;
+}
+
+.title h2 {
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 
 .cidade h3 {

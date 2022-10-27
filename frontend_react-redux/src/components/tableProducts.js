@@ -1,10 +1,8 @@
 function tableProducts(props) {
     return (
         <div className="product">
-            <div className="desc_prod">
-            <img src={props.img} />
+            <img src={props.img} alt='' />
             <br />{props.descricao}
-            </div>
             <hr />
             <span className="preco"><del>{props.valor}</del></span><br />
             <span className="desconto">{props.desconto}</span><br />

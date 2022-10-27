@@ -1,7 +1,7 @@
 function pageTitle(props) {
 
     return (
-        <header>
+        <header className="title">
             <h2>{props.text}</h2>
             <hr />
         </header>
