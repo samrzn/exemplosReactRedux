@@ -1,4 +1,4 @@
-function categories() {
+function Categories() {
     let category = [
         { nome: "Acessórios", quantidade: 2 },
         { nome: "Placas de Vídeo", quantidade: 3 },
@@ -23,4 +23,4 @@ function categories() {
 
 }
 
-export default categories;
+export default Categories;

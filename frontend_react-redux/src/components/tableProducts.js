@@ -1,4 +1,4 @@
-function tableProducts(props) {
+function TableProducts(props) {
     return (
         <div className="product">
             <img src={props.img} alt='' />
@@ -10,4 +10,4 @@ function tableProducts(props) {
     );
 }
 
-export default tableProducts;
+export default TableProducts;

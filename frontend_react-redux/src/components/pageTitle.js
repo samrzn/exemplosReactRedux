@@ -1,4 +1,4 @@
-function pageTitle(props) {
+function PageTitle(props) {
 
     return (
         <header className="title">
@@ -8,4 +8,4 @@ function pageTitle(props) {
     );
 }
 
-export default pageTitle;
+export default PageTitle;
