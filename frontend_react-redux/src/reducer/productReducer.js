@@ -1,7 +1,6 @@
 import { createReducer } from "@reduxjs/toolkit";
 import { ProductAdd } from "../action/productAction";
 
-// nomes gringos serão proibidos dentro do escopo de lógica do código, nessas ocasiões devemos usar palavras em português, exceto pelas próprias palavras esgtrangeiras da linguagem ou IDE e os casos de importação/referência de outros elementos do projeto. Adendo de orientação para usar termos gringos apenas naa declaração dos nomes de componentes, variáveis, const etc.
 
 const ProductsList = {
 
