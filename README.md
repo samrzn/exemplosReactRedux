@@ -16,6 +16,14 @@
 	<th>Versão</th>
 </tr>
 <tr>
+	<td>HTML</td>
+	<td>5.+</td>
+</tr>
+<tr>
+	<td>CSS</td>
+	<td>3.+</td>
+</tr>
+<tr>
 	<td>Node.js</td>
 	<td>18.+</td>
 </tr>
@@ -30,6 +38,8 @@
  
 
 <div style="display: inline_block"><br>  
+<img align="center" alt="HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+<img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />  
 <img align="center" alt="Node" height="54" width="47" src="https://cdn.icon-icons.com/icons2/2622/PNG/512/brand_node_icon_157859.png" />
 <img align="center" alt="JSX" height="40" width="40" src="https://cdn.icon-icons.com/icons2/2148/PNG/512/jsx_alt_icon_132290.png" />
 <img align="center" alt="Redux" height="44" width="44" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/redux_original_logo_icon_146365.png" />
