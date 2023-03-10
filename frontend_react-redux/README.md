@@ -1,3 +1,7 @@
-# Refatoração de projeto front-end #
+# Refatoração front-end exemplo #
 
+<<<<<<< HEAD
 ###### Site e-commerce fictício "dev.Point_Tech" implementando biblioteca React.JS com Redux - conteúdo do módulo 4 (Desenvolvimento de Sistemas, nível 2) no bootcamp de Desenvolvimento Full Stack | Recode PRO 2022.
+=======
+Site e-commerce fictício "dev.Point_Tech" implementando biblioteca React.JS com Redux - conteúdo do módulo 4 (Desenvolvimento de Sistemas, nível 2) no bootcamp de Desenvolvimento Full Stack | Recode PRO 2022.
+>>>>>>> ed68fe579f40362cf0c8e91415752d9874eb814f
